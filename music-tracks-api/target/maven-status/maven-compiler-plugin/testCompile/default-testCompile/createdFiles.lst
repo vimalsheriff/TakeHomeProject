@@ -1,0 +1,5 @@
+io\testapi\rmsmedia\runners\TestRunner.class
+io\testapi\rmsmedia\steps\MusicTracksSteps.class
+io\testapi\rmsmedia\filters\APILogFilter.class
+io\testapi\rmsmedia\utils\ReusableSpec.class
+io\testapi\rmsmedia\utils\ConfigReader.class

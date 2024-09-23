@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.681" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="Music tracks API data validation" name="Scenario-1: Music tracks API availablity and performance" time="3.844">
+<system-out><![CDATA[
+Given 'Jo' wants to browse music tracks.....................................passed
+When 'Jo' requests music tracks.............................................passed
+Then she should get a list of music tracks..................................passed
+And the response should be received within 2 seconds........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Music tracks API data validation" name="Scenario-2: Each track has a unique ID and segment type music" time="0.727">
+<system-out><![CDATA[
+Given 'Jo' wants to browse music tracks.....................................passed
+When 'Jo' requests music tracks.............................................passed
+Then each track should have a unique ID.....................................passed
+And each track segment type should be "music"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Music tracks API data validation" name="Scenario-3: Each track has a primary title" time="0.586">
+<system-out><![CDATA[
+Given 'Jo' wants to browse music tracks.....................................passed
+When 'Jo' requests music tracks.............................................passed
+Then each track should have a primary title.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Music tracks API data validation" name="Scenario-4: Only one track is currently playing" time="0.749">
+<system-out><![CDATA[
+Given 'Jo' wants to browse music tracks.....................................passed
+When 'Jo' requests music tracks.............................................passed
+Then only one track should have now playing as true.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Music tracks API data validation" name="Scenario-5: Response header date is today" time="0.504">
+<failure type="java.lang.AssertionError" message="1 expectation failed.
+Expected header &quot;Date&quot; was not &quot;Sat, 21 Sep 2024 23:59:30 GMT&quot;, was &quot;Sat, 21 Sep 2024 23:59:31 GMT&quot;. Headers are:
+Server=nginx/1.18.0 (Ubuntu)
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+Date=Sat, 21 Sep 2024 23:59:31 GMT
+Pragma=public
+X-RateLimit-Limit=60
+X-RateLimit-Remaining=55
+">
+<![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected header "Date" was not "Sat, 21 Sep 2024 23:59:30 GMT", was "Sat, 21 Sep 2024 23:59:31 GMT". Headers are:
+Server=nginx/1.18.0 (Ubuntu)
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+Date=Sat, 21 Sep 2024 23:59:31 GMT
+Pragma=public
+X-RateLimit-Limit=60
+X-RateLimit-Remaining=55
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.header(ResponseSpecificationImpl.groovy:191)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.header(ValidatableResponseOptionsImpl.java:114)
+	at io.testapi.rmsmedia.steps.MusicTracksSteps.the_response_header_date_should_be_today(MusicTracksSteps.java:143)
+	at ✽.the response header date should be today(file:///C:/Users/shwea/Downloads/music-tracks-api/music-tracks-api/src/test/resources/features/music-tracks-data-validation.feature:26)
+]]>
+</failure>
+<system-out><![CDATA[
+Given 'Jo' wants to browse music tracks.....................................passed
+When 'Jo' requests music tracks.............................................passed
+Then the response header date should be today...............................failed
+]]></system-out>
+</testcase>
+</testsuite>

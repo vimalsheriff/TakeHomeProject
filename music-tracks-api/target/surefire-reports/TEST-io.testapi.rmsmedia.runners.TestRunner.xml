@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="io.testapi.rmsmedia.runners.TestRunner" time="10.019" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api\target\test-classes;C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api\target\classes;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\shwea\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\shwea\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\shwea\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\shwea\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shwea\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shwea\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shwea\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shwea\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shwea\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shwea\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shwea\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\shwea\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Users\shwea\OneDrive\Desktop\Resources\jdk-11.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\shwea\AppData\Local\Temp\surefire14741225625307639663\surefirebooter-20240922005346461_3.jar C:\Users\shwea\AppData\Local\Temp\surefire14741225625307639663 2024-09-22T00-53-45_821-jvmRun1 surefire-20240922005346461_1tmp surefire_0-20240922005346461_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api\target\test-classes;C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api\target\classes;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\shwea\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\shwea\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\shwea\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\shwea\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\shwea\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\shwea\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shwea\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\shwea\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shwea\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shwea\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\shwea\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\shwea\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\shwea\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\shwea\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\shwea\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\shwea\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shwea"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="C:\Users\shwea\OneDrive\Desktop\Resources\jdk-11.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\shwea\AppData\Local\Temp\surefire14741225625307639663\surefirebooter-20240922005346461_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="user.name" value="shwea"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\shwea\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shwea\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="C:\Users\shwea\Downloads\music-tracks-api\music-tracks-api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\shwea\OneDrive\Desktop\Resources\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\cmd;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\shwea\OneDrive\Desktop\Resources\jdk-11.0.2\bin;C:\Users\shwea\OneDrive\Desktop\Resources\apache-maven-3.8.1\bin;C:\Users\shwea\AppData\Local\Microsoft\WindowsApps;C:\Users\shwea\AppData\Roaming\npm;C:\Users\shwea\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shwea\AppData\Local\Python312;C:\Users\shwea\AppData\Local\Python312\Scripts;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.1\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Scenario-1: Music tracks API availablity and performance" classname="Music tracks API data validation" time="5.441">
+    <system-out><![CDATA[
+Scenario: Scenario-1: Music tracks API availablity and performance &amp#27;[90m# src/test/resources/features/music-tracks-data-validation.feature:6&amp#27;[0m
+
+    Testing the scenario: Scenario-1: Music tracks API availablity and performance
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m wants to browse music tracks&amp#27;[0m                          &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.wants_to_browse_music_tracks(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://testapi.io/api/rmstest/media
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+    Request:
+    Request Method: GET
+    Request URI: https://testapi.io/api/rmstest/media
+    Request Headers: Accept=*/*
+    Request Body: No body
+
+
+    Response:
+    Response Status: 200
+    Response Headers: Server=nginx/1.18.0 (Ubuntu)
+    Content-Type=application/json
+    Transfer-Encoding=chunked
+    Connection=keep-alive
+    Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+    Date=Sat, 21 Sep 2024 23:53:51 GMT
+    Pragma=public
+    X-RateLimit-Limit=60
+    X-RateLimit-Remaining=59
+    Response Body: {
+        "data": [
+            {
+                "type": "music_track",
+                "id": "p002d79p",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "John Mellencamp",
+                    "secondary": "Jack And Diane",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 100,
+                    "end": 4500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7bc",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 4550,
+                    "end": 10000,
+                    "label": null,
+                    "now_playing": true
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7jv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "CeCe Peniston",
+                    "secondary": "Finally",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 10060,
+                    "end": 12000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7s3",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Candi Staton",
+                    "secondary": "Young Hearts Run Free",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 12046,
+                    "end": 12857,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsh",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Wham!",
+                    "secondary": "I'm Your Man",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 13000,
+                    "end": 13900,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsj",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Franz Ferdinand",
+                    "secondary": "No You Girls",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 14000,
+                    "end": 15000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsl",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "The Beatles",
+                    "secondary": "Got To Get You Into My Life",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 15010,
+                    "end": 16000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsm",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "ShÃ¨na",
+                    "secondary": "Can't Stop The Rain",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 16010,
+                    "end": 17500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsp",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Yeh Yeh",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 17600,
+                    "end": 19000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsr",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Johnnie Allan",
+                    "secondary": "The Promised Land",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 19010,
+                    "end": 20000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdss",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Shontelle Featuring Akon",
+                    "secondary": "Stuck With Each Other",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 20100,
+                    "end": 22000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Joe Brown",
+                    "secondary": "Ain't Too Old",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 22100,
+                    "end": 24000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsx",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nirvana",
+                    "secondary": "Smells Like Teen Spirit",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 24100,
+                    "end": 26000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsz",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Terry Jacks",
+                    "secondary": "Seasons In The Sun",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 26100,
+                    "end": 28000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                    }
+                ]
+            }
+        ]
+    }
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m requests music tracks&amp#27;[0m                                  &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.requests_music_tracks(java.lang.String)&amp#27;[0m
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+Date: Sat, 21 Sep 2024 23:53:51 GMT
+Pragma: public
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 59
+
+{
+    "data": [
+        {
+            "type": "music_track",
+            "id": "p002d79p",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "John Mellencamp",
+                "secondary": "Jack And Diane",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 100,
+                "end": 4500,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002d7bc",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                "secondary": null,
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 4550,
+                "end": 10000,
+                "label": null,
+                "now_playing": true
+            },
+            "uris": [
+                
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002d7jv",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "CeCe Peniston",
+                "secondary": "Finally",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 10060,
+                "end": 12000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002d7s3",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Candi Staton",
+                "secondary": "Young Hearts Run Free",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 12046,
+                "end": 12857,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsh",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Wham!",
+                "secondary": "I'm Your Man",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 13000,
+                "end": 13900,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsj",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Franz Ferdinand",
+                "secondary": "No You Girls",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 14000,
+                "end": 15000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsl",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "The Beatles",
+                "secondary": "Got To Get You Into My Life",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 15010,
+                "end": 16000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsm",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Shèna",
+                "secondary": "Can't Stop The Rain",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 16010,
+                "end": 17500,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsp",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Yeh Yeh",
+                "secondary": null,
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 17600,
+                "end": 19000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsr",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Johnnie Allan",
+                "secondary": "The Promised Land",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 19010,
+                "end": 20000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdss",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Shontelle Featuring Akon",
+                "secondary": "Stuck With Each Other",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 20100,
+                "end": 22000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsv",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Joe Brown",
+                "secondary": "Ain't Too Old",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 22100,
+                "end": 24000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsx",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Nirvana",
+                "secondary": "Smells Like Teen Spirit",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 24100,
+                "end": 26000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                }
+            ]
+        },
+        {
+            "type": "music_track",
+            "id": "p002gdsz",
+            "segment_type": "music",
+            "title_list": {
+                "primary": "Terry Jacks",
+                "secondary": "Seasons In The Sun",
+                "tertiary": null
+            },
+            "synopses": null,
+            "image_url": null,
+            "offset": {
+                "start": 26100,
+                "end": 28000,
+                "label": null,
+                "now_playing": false
+            },
+            "uris": [
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-spotify",
+                    "label": "Spotify",
+                    "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                },
+                {
+                    "type": "commercial-music-service",
+                    "id": "commercial-music-service-apple",
+                    "label": "Apple Music",
+                    "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                }
+            ]
+        }
+    ]
+}
+
+    Jo successfully requested music tracks
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mshe should get a list of music tracks&amp#27;[0m                       &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.should_receive_the_list_of_music_tracks()&amp#27;[0m
+
+    Response time in milliseconds is: 
+    1115
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should be received within &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m seconds&amp#27;[0m             &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.the_response_is_received_within_seconds(java.lang.Long)&amp#27;[0m
+
+    Tested the scenario: Scenario-1: Music tracks API availablity and performance, it's status is: PASSED
+
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario-2: Each track has a unique ID and segment type music" classname="Music tracks API data validation" time="0.937">
+    <system-out><![CDATA[
+Scenario: Scenario-2: Each track has a unique ID and segment type music &amp#27;[90m# src/test/resources/features/music-tracks-data-validation.feature:11&amp#27;[0m
+
+    Testing the scenario: Scenario-2: Each track has a unique ID and segment type music
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m wants to browse music tracks&amp#27;[0m                               &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.wants_to_browse_music_tracks(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://testapi.io/api/rmstest/media
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+    Request:
+    Request Method: GET
+    Request URI: https://testapi.io/api/rmstest/media
+    Request Headers: Accept=*/*
+    Request Body: No body
+
+
+    Response:
+    Response Status: 200
+    Response Headers: Server=nginx/1.18.0 (Ubuntu)
+    Content-Type=application/json
+    Transfer-Encoding=chunked
+    Connection=keep-alive
+    Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+    Date=Sat, 21 Sep 2024 23:53:53 GMT
+    Pragma=public
+    X-RateLimit-Limit=60
+    X-RateLimit-Remaining=58
+    Response Body: {
+        "data": [
+            {
+                "type": "music_track",
+                "id": "p002d79p",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "John Mellencamp",
+                    "secondary": "Jack And Diane",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 100,
+                    "end": 4500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7bc",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 4550,
+                    "end": 10000,
+                    "label": null,
+                    "now_playing": true
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7jv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "CeCe Peniston",
+                    "secondary": "Finally",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 10060,
+                    "end": 12000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7s3",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Candi Staton",
+                    "secondary": "Young Hearts Run Free",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 12046,
+                    "end": 12857,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsh",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Wham!",
+                    "secondary": "I'm Your Man",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 13000,
+                    "end": 13900,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsj",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Franz Ferdinand",
+                    "secondary": "No You Girls",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 14000,
+                    "end": 15000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsl",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "The Beatles",
+                    "secondary": "Got To Get You Into My Life",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 15010,
+                    "end": 16000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsm",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "ShÃ¨na",
+                    "secondary": "Can't Stop The Rain",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 16010,
+                    "end": 17500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsp",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Yeh Yeh",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 17600,
+                    "end": 19000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsr",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Johnnie Allan",
+                    "secondary": "The Promised Land",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 19010,
+                    "end": 20000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdss",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Shontelle Featuring Akon",
+                    "secondary": "Stuck With Each Other",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 20100,
+                    "end": 22000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Joe Brown",
+                    "secondary": "Ain't Too Old",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 22100,
+                    "end": 24000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsx",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nirvana",
+                    "secondary": "Smells Like Teen Spirit",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 24100,
+                    "end": 26000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsz",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Terry Jacks",
+                    "secondary": "Seasons In The Sun",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 26100,
+                    "end": 28000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                    }
+                ]
+            }
+        ]
+    }
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m requests music tracks&amp#27;[0m                                       &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.requests_music_tracks(java.lang.String)&amp#27;[0m
+
+    Unique IDs are: 
+    [p002d79p, p002d7bc, p002d7jv, p002d7s3, p002gdsh, p002gdsj, p002gdsl, p002gdsm, p002gdsp, p002gdsr, p002gdss, p002gdsv, p002gdsx, p002gdsz]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32meach track should have a unique ID&amp#27;[0m                               &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.each_track_should_have_a_unique_id()&amp#27;[0m
+
+    Segment Types are: 
+    [music, music, music, music, music, music, music, music, music, music, music, music, music, music]
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32meach track segment type should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"music"&amp#27;[0m                         &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.each_track_segment_type_should_be(java.lang.String)&amp#27;[0m
+
+    Tested the scenario: Scenario-2: Each track has a unique ID and segment type music, it's status is: PASSED
+
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario-3: Each track has a primary title" classname="Music tracks API data validation" time="0.847">
+    <system-out><![CDATA[
+Scenario: Scenario-3: Each track has a primary title &amp#27;[90m# src/test/resources/features/music-tracks-data-validation.feature:16&amp#27;[0m
+
+    Testing the scenario: Scenario-3: Each track has a primary title
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m wants to browse music tracks&amp#27;[0m            &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.wants_to_browse_music_tracks(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://testapi.io/api/rmstest/media
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+    Request:
+    Request Method: GET
+    Request URI: https://testapi.io/api/rmstest/media
+    Request Headers: Accept=*/*
+    Request Body: No body
+
+
+    Response:
+    Response Status: 200
+    Response Headers: Server=nginx/1.18.0 (Ubuntu)
+    Content-Type=application/json
+    Transfer-Encoding=chunked
+    Connection=keep-alive
+    Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+    Date=Sat, 21 Sep 2024 23:53:54 GMT
+    Pragma=public
+    X-RateLimit-Limit=60
+    X-RateLimit-Remaining=57
+    Response Body: {
+        "data": [
+            {
+                "type": "music_track",
+                "id": "p002d79p",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "John Mellencamp",
+                    "secondary": "Jack And Diane",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 100,
+                    "end": 4500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7bc",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 4550,
+                    "end": 10000,
+                    "label": null,
+                    "now_playing": true
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7jv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "CeCe Peniston",
+                    "secondary": "Finally",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 10060,
+                    "end": 12000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7s3",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Candi Staton",
+                    "secondary": "Young Hearts Run Free",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 12046,
+                    "end": 12857,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsh",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Wham!",
+                    "secondary": "I'm Your Man",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 13000,
+                    "end": 13900,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsj",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Franz Ferdinand",
+                    "secondary": "No You Girls",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 14000,
+                    "end": 15000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsl",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "The Beatles",
+                    "secondary": "Got To Get You Into My Life",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 15010,
+                    "end": 16000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsm",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "ShÃ¨na",
+                    "secondary": "Can't Stop The Rain",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 16010,
+                    "end": 17500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsp",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Yeh Yeh",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 17600,
+                    "end": 19000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsr",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Johnnie Allan",
+                    "secondary": "The Promised Land",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 19010,
+                    "end": 20000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdss",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Shontelle Featuring Akon",
+                    "secondary": "Stuck With Each Other",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 20100,
+                    "end": 22000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Joe Brown",
+                    "secondary": "Ain't Too Old",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 22100,
+                    "end": 24000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsx",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nirvana",
+                    "secondary": "Smells Like Teen Spirit",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 24100,
+                    "end": 26000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsz",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Terry Jacks",
+                    "secondary": "Seasons In The Sun",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 26100,
+                    "end": 28000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                    }
+                ]
+            }
+        ]
+    }
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m requests music tracks&amp#27;[0m                    &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.requests_music_tracks(java.lang.String)&amp#27;[0m
+
+    Primary titles are: 
+    [John Mellencamp, Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D), CeCe Peniston, Candi Staton, Wham!, Franz Ferdinand, The Beatles, ShÃ¨na, Yeh Yeh, Johnnie Allan, Shontelle Featuring Akon, Joe Brown, Nirvana, Terry Jacks]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32meach track should have a primary title&amp#27;[0m        &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.each_track_should_have_a_primary_title()&amp#27;[0m
+
+    Tested the scenario: Scenario-3: Each track has a primary title, it's status is: PASSED
+
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario-4: Only one track is currently playing" classname="Music tracks API data validation" time="0.743">
+    <system-out><![CDATA[
+Scenario: Scenario-4: Only one track is currently playing &amp#27;[90m# src/test/resources/features/music-tracks-data-validation.feature:20&amp#27;[0m
+
+    Testing the scenario: Scenario-4: Only one track is currently playing
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m wants to browse music tracks&amp#27;[0m                 &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.wants_to_browse_music_tracks(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://testapi.io/api/rmstest/media
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+    Request:
+    Request Method: GET
+    Request URI: https://testapi.io/api/rmstest/media
+    Request Headers: Accept=*/*
+    Request Body: No body
+
+
+    Response:
+    Response Status: 200
+    Response Headers: Server=nginx/1.18.0 (Ubuntu)
+    Content-Type=application/json
+    Transfer-Encoding=chunked
+    Connection=keep-alive
+    Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+    Date=Sat, 21 Sep 2024 23:53:54 GMT
+    Pragma=public
+    X-RateLimit-Limit=60
+    X-RateLimit-Remaining=56
+    Response Body: {
+        "data": [
+            {
+                "type": "music_track",
+                "id": "p002d79p",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "John Mellencamp",
+                    "secondary": "Jack And Diane",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 100,
+                    "end": 4500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7bc",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 4550,
+                    "end": 10000,
+                    "label": null,
+                    "now_playing": true
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7jv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "CeCe Peniston",
+                    "secondary": "Finally",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 10060,
+                    "end": 12000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7s3",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Candi Staton",
+                    "secondary": "Young Hearts Run Free",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 12046,
+                    "end": 12857,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsh",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Wham!",
+                    "secondary": "I'm Your Man",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 13000,
+                    "end": 13900,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsj",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Franz Ferdinand",
+                    "secondary": "No You Girls",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 14000,
+                    "end": 15000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsl",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "The Beatles",
+                    "secondary": "Got To Get You Into My Life",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 15010,
+                    "end": 16000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsm",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "ShÃ¨na",
+                    "secondary": "Can't Stop The Rain",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 16010,
+                    "end": 17500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsp",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Yeh Yeh",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 17600,
+                    "end": 19000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsr",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Johnnie Allan",
+                    "secondary": "The Promised Land",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 19010,
+                    "end": 20000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdss",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Shontelle Featuring Akon",
+                    "secondary": "Stuck With Each Other",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 20100,
+                    "end": 22000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Joe Brown",
+                    "secondary": "Ain't Too Old",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 22100,
+                    "end": 24000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsx",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nirvana",
+                    "secondary": "Smells Like Teen Spirit",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 24100,
+                    "end": 26000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsz",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Terry Jacks",
+                    "secondary": "Seasons In The Sun",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 26100,
+                    "end": 28000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                    }
+                ]
+            }
+        ]
+    }
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m requests music tracks&amp#27;[0m                         &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.requests_music_tracks(java.lang.String)&amp#27;[0m
+
+    Now playing track is: 
+    [{start=4550, end=10000, label=null, now_playing=true}]
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32monly one track should have now playing as true&amp#27;[0m     &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.only_one_track_should_have_now_playing_as_true()&amp#27;[0m
+
+    Tested the scenario: Scenario-4: Only one track is currently playing, it's status is: PASSED
+
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario-5: Response header date is today" classname="Music tracks API data validation" time="0.953">
+    <failure message="1 expectation failed.&#10;Expected header &quot;Date&quot; was not &quot;Sat, 21 Sep 2024 23:53:54 GMT&quot;, was &quot;Sat, 21 Sep 2024 23:53:55 GMT&quot;. Headers are:&#10;Server=nginx/1.18.0 (Ubuntu)&#10;Content-Type=application/json&#10;Transfer-Encoding=chunked&#10;Connection=keep-alive&#10;Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200&#10;Date=Sat, 21 Sep 2024 23:53:55 GMT&#10;Pragma=public&#10;X-RateLimit-Limit=60&#10;X-RateLimit-Remaining=55&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected header "Date" was not "Sat, 21 Sep 2024 23:53:54 GMT", was "Sat, 21 Sep 2024 23:53:55 GMT". Headers are:
+Server=nginx/1.18.0 (Ubuntu)
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+Date=Sat, 21 Sep 2024 23:53:55 GMT
+Pragma=public
+X-RateLimit-Limit=60
+X-RateLimit-Remaining=55
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.header(ResponseSpecificationImpl.groovy:191)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.header(ValidatableResponseOptionsImpl.java:114)
+	at io.testapi.rmsmedia.steps.MusicTracksSteps.the_response_header_date_should_be_today(MusicTracksSteps.java:143)
+	at ✽.the response header date should be today(file:///C:/Users/shwea/Downloads/music-tracks-api/music-tracks-api/src/test/resources/features/music-tracks-data-validation.feature:26)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Scenario-5: Response header date is today &amp#27;[90m# src/test/resources/features/music-tracks-data-validation.feature:24&amp#27;[0m
+
+    Testing the scenario: Scenario-5: Response header date is today
+
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m wants to browse music tracks&amp#27;[0m           &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.wants_to_browse_music_tracks(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://testapi.io/api/rmstest/media
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+    Request:
+    Request Method: GET
+    Request URI: https://testapi.io/api/rmstest/media
+    Request Headers: Accept=*/*
+    Request Body: No body
+
+
+    Response:
+    Response Status: 200
+    Response Headers: Server=nginx/1.18.0 (Ubuntu)
+    Content-Type=application/json
+    Transfer-Encoding=chunked
+    Connection=keep-alive
+    Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+    Date=Sat, 21 Sep 2024 23:53:55 GMT
+    Pragma=public
+    X-RateLimit-Limit=60
+    X-RateLimit-Remaining=55
+    Response Body: {
+        "data": [
+            {
+                "type": "music_track",
+                "id": "p002d79p",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "John Mellencamp",
+                    "secondary": "Jack And Diane",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 100,
+                    "end": 4500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/43btz2xjMKpcmjkuRsvxyg"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/jack-diane/1440786233?i=1440786241"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7bc",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nessa Jenkins & Bryn West (Ruth Jones and Rob Brydon) - Islands In The Stream (R.N.D)",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 4550,
+                    "end": 10000,
+                    "label": null,
+                    "now_playing": true
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7jv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "CeCe Peniston",
+                    "secondary": "Finally",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 10060,
+                    "end": 12000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3eGK6iiWkXqMqpQcrRpDqV"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/finally-12-version/1444207021?i=1444208000"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002d7s3",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Candi Staton",
+                    "secondary": "Young Hearts Run Free",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 12046,
+                    "end": 12857,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3MFa9idQuY4iJLWsZl3tIQ"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/young-hearts-run-free/1560122078?i=1560126457"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsh",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Wham!",
+                    "secondary": "I'm Your Man",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 13000,
+                    "end": 13900,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/2gG7E5OZi5D5QLRIctv63z"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/im-your-man/477441767?i=477441983"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsj",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Franz Ferdinand",
+                    "secondary": "No You Girls",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 14000,
+                    "end": 15000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/no-you-girls/300683347?i=300683350"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsl",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "The Beatles",
+                    "secondary": "Got To Get You Into My Life",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 15010,
+                    "end": 16000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/3tGhRLgcCP6SIZU3tbGl7l"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/hey-jude-remastered-2015/1541218898?i=1541218906"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsm",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "ShÃ¨na",
+                    "secondary": "Can't Stop The Rain",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 16010,
+                    "end": 17500,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsp",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Yeh Yeh",
+                    "secondary": null,
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 17600,
+                    "end": 19000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/1PYpdnXFzFO4VM5K8G4PCu"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/yeh-yeh/1442557790?i=1442557801"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsr",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Johnnie Allan",
+                    "secondary": "The Promised Land",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 19010,
+                    "end": 20000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/promised-land/821324149?i=821324314"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdss",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Shontelle Featuring Akon",
+                    "secondary": "Stuck With Each Other",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 20100,
+                    "end": 22000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsv",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Joe Brown",
+                    "secondary": "Ain't Too Old",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 22100,
+                    "end": 24000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsx",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Nirvana",
+                    "secondary": "Smells Like Teen Spirit",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 24100,
+                    "end": 26000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6mpyO7bJaCrHzE0iQEtZiN"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/smells-like-teen-spirit-live-at-del-mar-fairgrounds/1440917165?i=14174030"
+                    }
+                ]
+            },
+            {
+                "type": "music_track",
+                "id": "p002gdsz",
+                "segment_type": "music",
+                "title_list": {
+                    "primary": "Terry Jacks",
+                    "secondary": "Seasons In The Sun",
+                    "tertiary": null
+                },
+                "synopses": null,
+                "image_url": null,
+                "offset": {
+                    "start": 26100,
+                    "end": 28000,
+                    "label": null,
+                    "now_playing": false
+                },
+                "uris": [
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-spotify",
+                        "label": "Spotify",
+                        "uri": "https://open.spotify.com/track/6YN3NnkXoFWbHkPYNE0dG3"
+                    },
+                    {
+                        "type": "commercial-music-service",
+                        "id": "commercial-music-service-apple",
+                        "label": "Apple Music",
+                        "uri": "https://music.apple.com/gb/album/seasons-in-the-sun/355934056?i=355934698"
+                    }
+                ]
+            }
+        ]
+    }
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m'Jo'&amp#27;[0m&amp#27;[32m requests music tracks&amp#27;[0m                   &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.requests_music_tracks(java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe response header date should be today&amp#27;[0m     &amp#27;[90m# io.testapi.rmsmedia.steps.MusicTracksSteps.the_response_header_date_should_be_today()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected header "Date" was not "Sat, 21 Sep 2024 23:53:54 GMT", was "Sat, 21 Sep 2024 23:53:55 GMT". Headers are:
+Server=nginx/1.18.0 (Ubuntu)
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=30, public, s-maxage=30, stale-if-error=7200, stale-while-revalidate=7200
+Date=Sat, 21 Sep 2024 23:53:55 GMT
+Pragma=public
+X-RateLimit-Limit=60
+X-RateLimit-Remaining=55
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.header(ResponseSpecificationImpl.groovy:191)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.header(ValidatableResponseOptionsImpl.java:114)
+	at io.testapi.rmsmedia.steps.MusicTracksSteps.the_response_header_date_should_be_today(MusicTracksSteps.java:143)
+	at âœ½.the response header date should be today(file:///C:/Users/shwea/Downloads/music-tracks-api/music-tracks-api/src/test/resources/features/music-tracks-data-validation.feature:26)
+&amp#27;[0m
+
+    Tested the scenario: Scenario-5: Response header date is today, it's status is: FAILED
+
+]]></system-out>
+  </testcase>
+</testsuite>
